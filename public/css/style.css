@@ -1,0 +1,111 @@
+
+body {
+  background-color: lightskyblue;
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+.container
+{
+  width: 600px;
+  height: 500px;
+  background-color: white;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8%;
+  border-radius: 30px;
+  text-align: center;
+  align-items: center;
+  box-shadow:  10px 10px 10px black;
+
+  
+}
+.form
+{
+position: relative;
+  margin-top: 10%;
+  border-style: none;
+  box-sizing: 20px;
+  
+  
+}
+fieldset {
+align-items: center;
+  border-style: none;
+}
+.ghost-input, p {
+  margin-top: 5%;
+  align-self: center;
+  display: block;
+  font-weight:300;
+  width: 100%;
+  font-size: 25px;
+  border:0px;
+  outline: none;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #4b545f;
+  background: #fff;
+  font-family: Open Sans,Verdana;
+  padding: 10px 10px;
+  margin-left:auto;
+  margin-right: auto;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  text-align: center;
+}
+.btn-warning {
+  position: relative;
+  align-self: center;
+  background-color:#ffbf00;
+  border: transparent;
+  border-radius: 10px;
+  font-size: 20px;
+  padding:15px 15px;
+  width: 100%;
+  width: 200px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  
+}
+.ghost-button:hover {
+  border:2px solid #515151;
+  border: transparent;
+}
+p {
+  line-height: 80%;
+  margin-top: 3%;
+  color:#161616;
+  font-size: 20px;
+  font-size: larger;
+  font-family: 'Oswald';
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+}
+footer{
+ 
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   border-radius: 3px;
+   background-color:white;
+   text-align: center;
+   text-color:#161616;
+   font-size: 15px;
+   padding: 0.8%;
+   font-weight: bold;
+}
